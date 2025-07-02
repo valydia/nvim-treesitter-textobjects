@@ -12,8 +12,8 @@
     (block)
   ] @function.inner) @function.outer
 
-(parameter
-  name: (identifier) @parameter.inner) @parameter.outer
+(parameters
+  (parameter) @parameter.inner) @parameter.outer
 
 (class_parameter
   name: (identifier) @parameter.inner) @parameter.outer
